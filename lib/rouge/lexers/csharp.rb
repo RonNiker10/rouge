@@ -6,7 +6,7 @@ module Rouge
     class CSharp < RegexLexer
       tag 'csharp'
       aliases 'c#', 'cs'
-      filenames '*.cs'
+      filenames '*.cs', '*.csx'
       mimetypes 'text/x-csharp'
 
       title "C#"
